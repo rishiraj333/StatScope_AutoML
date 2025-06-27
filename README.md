@@ -1,15 +1,13 @@
-# StatScope_AutoML
-Predictive modelling for dummies!
+# 📊 StatScope AutoML: 
 
-📊 StatScope AutoML V: 
-
-StatScope is an idiot-proof, no-code AutoML tool built with Streamlit that lets you:
-    •    Upload your dataset (CSV)
-    •    Automatically detect date/time columns
-    •    Clean and preprocess your data
-    •    Build and tune a Random Forest Regressor
-    •    Evaluate and visualize model performance
-    •    Download the trained model and predictions
+StatScope is a fast, no-code AutoML tool built with Streamlit that lets you:
+- Upload your dataset (CSV)
+- Automatically detect date/time columns
+- Automatically clean, encode, and preprocess your data
+- Choose the target column and select the features for training
+- Automatically build and tune a Random Forest Regressor
+- Evaluate and visualize model performance
+- Download the trained model and predictions
 
 ⸻
 
@@ -17,8 +15,8 @@ StatScope is an idiot-proof, no-code AutoML tool built with Streamlit that lets 
 
 1️⃣ Clone the repository
 
-git clone https://github.com/YOUR_USERNAME/statscope.git
-cd statscope
+git clone https://github.com/rishiraj333/StatScope_AutoML.git
+cd StatScope_AutoML
 
 2️⃣ Set up the environment
 
@@ -43,32 +41,31 @@ streamlit run app.py
 📂 How to use the app
 
 1️⃣ Upload your dataset
-    •    Click “Browse files” to upload a CSV file.
-    •    Your dataset will load, and you’ll see a preview.
+- Click “Browse files” to upload a CSV file.
+- Your dataset will load, and you’ll see a preview.
 
 2️⃣ Select target and features
-    •    Choose your target variable (what you want to predict).
-    •    Optionally, choose specific features (or leave as default = all).
+- Choose your target variable (what you want to predict).
+- Optionally, choose specific features (or leave as default = all).
 
 3️⃣ Run AutoML
-    •    Click “🚀 Run AutoML”.
-    •    The app will:
-    •    Clean data (handle missing values, duplicates)
-    •    Encode categorical variables
-    •    Scale features
-    •    Auto-tune the Random Forest model
-    •    Show performance metrics + plots
+- Click “🚀 Run AutoML”. The app will:
+- Clean data (handle missing values, duplicates)
+- Encode categorical variables
+- Scale features
+- Auto-tune the Random Forest model
+- Show performance metrics + plots
 
 4️⃣ Download results
-    •    Download the trained model (.pkl)
-    •    Download the predictions (.csv)
+- Download the trained model (.pkl)
+- Download the predictions (.csv)
 
 ⸻
 
 📈 Outputs
-    •    R² score: How well the model explains variance in the data
-    •    MSE: How large the prediction errors are
-    •    Actual vs. Predicted plot (scatter + line)
+- R² score: How well the model explains variance in the data
+- MSE: How large the prediction errors are
+- Actual vs. Predicted plot (scatter + line)
 
 ⸻
 
@@ -83,20 +80,20 @@ Date    Feature1    Feature2    Target
 ⸻
 
 💡 Notes
-    •    The app currently supports regression tasks only.
-    •    Make sure your CSV has a datetime or date column if you want time-based features.
+- The app currently supports regression tasks only.
+- This version is still under testing phase, so feel free to try and test various datasets to check for bugs.
 
 ⸻
 
 📌 Requirements
-    •    Python >= 3.8
-    •    Streamlit
-    •    pandas
-    •    scikit-learn
-    •    seaborn
-    •    matplotlib
-    •    numpy
-    •    pickle
+- Python >= 3.8
+- Streamlit
+- pandas
+- scikit-learn
+- seaborn
+- matplotlib
+- numpy
+- pickle
 
 (See environment.yml or requirements.txt for full list)
 
